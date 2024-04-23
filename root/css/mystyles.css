@@ -1,0 +1,83 @@
+body{
+
+}
+
+site-heading{
+    color: black;
+    font-weight: bolder !important;
+}
+
+/**div styles**/
+.common{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    color:black;
+}
+.top{
+    top:0px;
+    left: 0px;
+    right: 0px;
+    color:white;
+    background-color: #a0bba6;
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    background-color:#a0bba6;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin:auto;
+    border: 5px solid black;
+    text-align: center;
+
+}
+p{
+    color:black;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.site-heading .site-heading-upper {
+    color: black !important;
+    font-weight:400;
+    
+}
+.site-heading .site-heading-lower{
+    color:black;
+    font-weight: 275;
+}
+.bg-faded{
+    background-color: #a0bba6;
+}
+.list-hours .list-hours-item.today {
+    font-weight: lighter;
+    color: black;
+}
+.list-hours .list-hours-item{
+    border-bottom: 1px solid black;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.headscratch{
+    font-weight: bold;
+    font-size:xx-large
+}
+.scratchh1{
+    text-align: center;
+    font-size: xx-large;
+}
